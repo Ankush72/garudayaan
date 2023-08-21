@@ -1,0 +1,30 @@
+.active {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+  border-radius: 5px;
+}
+.logo{
+    position: relative;
+}
+
+.nav_logo {
+  width: 220px;
+  height: 80px;
+  /* -webkit-clip-path: polygon(0 0, 0 40%, 100% 40%, 100% 25%, 50% 0) !important; */
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 45%, 85% 0) !important;
+  display: flex;
+  align-items: center;
+  /* justify-content: ; */
+  padding-left: 10px;
+}
+
+.line_drow {
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  top: 30px;
+  right: -30px;
+  rotate: 50deg;
+  z-index: 20;
+}
