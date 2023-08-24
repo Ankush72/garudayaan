@@ -1,6 +1,6 @@
-const sitemap = require('sitemap');
-const fs = require('fs');
-const hostname = 'https://www.garudayaan.com';
+// const sitemap = require('sitemap');
+// const fs = require('fs');
+// const hostname = 'https://www.garudayaan.com';
 
 // const urls = [
 //   { url: '/', changefreq: 'daily', priority: 1 },
@@ -16,13 +16,13 @@ const hostname = 'https://www.garudayaan.com';
 //   // Add additional pages here
 // ];
 
-const sitemapInstance = sitemap.createSitemap({
-  hostname,
-//   urls,
-});
+// const sitemapInstance = sitemap.createSitemap({
+//   hostname,
+// //   urls,
+// });
 
 
 
-// Write sitemap to public directory
-fs.writeFileSync('./public/sitemap.xml', sitemapInstance.toString());
+// // Write sitemap to public directory
+// fs.writeFileSync('./public/sitemap.xml', sitemapInstance.toString());
 
