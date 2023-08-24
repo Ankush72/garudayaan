@@ -49,7 +49,7 @@ const App = () => {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/returns-refunds" element={<ReturnsRefunds />} />
-          <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path="/driver-terms-condition" element={<Disclaimer />} />
         </Routes>
       </ScrollToTop>
       <Footer />

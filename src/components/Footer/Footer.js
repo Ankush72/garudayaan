@@ -76,7 +76,7 @@ const Footer = () => {
                 <NavLink to="/returns-refunds">Return & Refunds</NavLink>
               </li> */}
               <li className=" text-base font-medium text-lightnavyblue cursor-pointer hover:underline hover:rounded hover:text-red hover: underline-offset-4 transition duration-150 ease-out hover:ease-in	">
-                <NavLink to="/disclaimer">Driver Terms & Condition</NavLink>
+                <NavLink to="/driver-terms-condition">Driver Terms & Condition</NavLink>
               </li>
             </ul>
           </div>
