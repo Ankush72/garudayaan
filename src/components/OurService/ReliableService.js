@@ -16,7 +16,7 @@ const ReliableService = () => {
           We Provide a Reliable Services
         </h1>
         <p className="font-normal text-sm sm:text-base mt-5 ">
-          "At GARUDAYAAN Logistics Company, we are dedicated to providing our
+          "At GARUDAYAAN Top Logistics Company in Bangalore, we are dedicated to providing our
           clients with top-notch logistics solutions. Our team of experienced
           professionals is committed to ensuring that your shipments are
           delivered on time and in perfect condition. We offer a wide range of

@@ -1,10 +1,15 @@
 .active {
-  border-bottom: 3px solid yellow;
-  color: yellow;
+  border-bottom: 3px solid #5E2212;
+  color: #5E2212;
   border-radius: 5px;
 }
 .logo{
     position: relative;
+}
+
+.navbar_bg{
+  /* background-image: linear-gradient(red, yellow); */
+  background-image: linear-gradient(to right, rgb(255, 209, 59),rgb(253, 250, 144)) !important;
 }
 
 .nav_logo {

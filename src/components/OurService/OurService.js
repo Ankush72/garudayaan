@@ -13,7 +13,7 @@ const OurService = () => {
       setReadMore(!readMore);
   };
   return (
-    <div className="pt-5 pb-20 flex items-center justify-center flex-col">
+    <div className="pt-[60px] pb-20 flex items-center justify-center flex-col">
       <h1 className="text-center font-bold text-4xl pt-5">Our service</h1>
 
       <div className="pt-[50px] flex flex-wrap items-center justify-center">

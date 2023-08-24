@@ -38,7 +38,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="p-10 flex flex-col-reverse lg:flex-row">
+      <div className="p-10 flex flex-col-reverse lg:flex-row bg-[#F2F2F2]">
         <div className="lg:w-1/2">
           <iframe
             className="rounded-xl w-full h-[350px] sm:h-[450px] mt-10 lg:mt-0 shadow-2xl"
@@ -147,7 +147,8 @@ const Contact = () => {
             <div className="w-full">
               <button
                 type="submit"
-                className=" py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                className="text-base capitalize w-[100px] h-10 bg-red rounded transition duration-150 ease-out hover:ease-in  flex items-center justify-center  font-medium text-white cursor-pointer"
+                // className=" py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
               >
                 Submit
               </button>
