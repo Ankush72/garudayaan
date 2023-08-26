@@ -9,6 +9,7 @@ import {AiOutlineClose} from "react-icons/ai"
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  
   return (
     <div className="navbar_bg flex items-center justify-between sm:pl-10 pr-3 sm:pr-10 shadow-2xl font-montserrat font-medium fixed w-full z-20  h-[65px]">
       <Link to="/" className="flex items-center justify-center  pr-5 logo ">

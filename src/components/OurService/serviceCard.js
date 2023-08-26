@@ -9,7 +9,7 @@ import logistic4 from "../Image/logistics5.png"
 const ServiceData = [
     {
         id:1,
-        title: "Parcel Delivery Services",
+        title: "Parcel Delivery",
         details:"We are a dedicated team of professionals committed to providing fast and reliable parcel delivery.",
         img:logistic4,
         route:"/our-service/parcel-delivery"
