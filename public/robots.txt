@@ -1,2 +1,4 @@
-# https://www.garudayaan.com/sitemap.xml
+User-agent: *
+Disallow: 
+Sitemap: https://www.garudayaan.com/sitemap.xml
 
